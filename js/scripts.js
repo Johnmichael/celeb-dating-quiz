@@ -15,7 +15,7 @@ $(document).ready(function() {
 
     if (finaltotal >= 5) {
       $('.kesha').show();
-    } else if (finaltotal >=3 && finaltotal <=5) {
+    } else if (finaltotal >=3 && finaltotal <5) {
       $('.betty').show();
     } else if (finaltotal ===2){
       $('.trump').show();
